@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;300;400;500;600;700&display=swap');
+body{
+    background-image: url('../img/space.jpg');
+    background-repeat: space;
+    background-size: auto;
+}
+
+@media (min-width:1000px){
+
+    .space{
+        margin-left: 50%;
+    }
+}
+.space{
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: xx-large;
+    font-family: 'Martian';
+    
+    font-weight: 700;
+    padding: 20px;
+    background-color: black;
+    opacity: 75%;
+    width:max-content;
+    cursor: pointer;
+    border-radius: 15px;
+     
+}
+
+.space:hover{
+        transform: scale(1.8);
+        transition: ease-in-out;
+        color:rgb(82, 82, 240);
+        transition-duration: 800ms;
+      /* transform: rotateZ(2deg); */
+}
+ 
+ 
